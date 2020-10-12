@@ -11,20 +11,20 @@ describe('insurestation Log in', () => {
     loginPage.open();
     assert.strictEqual(browser.getTitle(), 'insurestation');
   });
-  // it('Enters User Info', () => {
-  //   let user = 'nicholas.fidanza@sprintersinsurance.com';  
-  //   loginPage.enterText('userInput', user);
-  //   assert.strictEqual(loginPage.checkInput('userInput'), user);
-  // });
-  // it('Enters Password Info', () => {
-  //   let password = 'Spr1nt1ng!';
-  //   loginPage.enterTextPassword('passwordInput', password);
-  //   assert.strictEqual(loginPage.checkInput('passwordInput'), password);
-  // });
-  // it('Logs in', () => {
-  //   loginPage.logIn()
-  //   assert.strictEqual(loginPage.loggedIn(), true);
-  // });
+  it('Enters User Info', () => {
+    let user = 'wagent';  
+    loginPage.enterText('userInput', user);
+    assert.strictEqual(loginPage.checkInput('userInput'), user);
+  });
+  it('Enters Password Info', () => {
+    let password = 'Test1234';
+    loginPage.enterTextPassword('passwordInput', password);
+    assert.strictEqual(loginPage.checkInput('passwordInput'), password);
+  });
+  it('Logs in', () => {
+    loginPage.logIn()
+    assert.strictEqual(loginPage.loggedIn(), true);
+  });
 });
 
 // describe('Obtains a new quote', () =>{

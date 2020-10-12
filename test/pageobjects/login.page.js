@@ -6,8 +6,8 @@ class loginPage extends Page  {
   * define elements
   */
 
-  get loginButton()  { return $('#ctl00_body_LoginButton'); }
-  get welcomeScreen() { return $('.welcomeContainer'); }
+  get loginButton()  { return $('[name="loginBtn"]'); }
+  get welcomeScreen() { return $('#app-container'); }
   get rateQuoteButton() { return $('[name="ctl00$CPH$RateQuoteButton"]'); }
   get secondPageRateQuoteButton() { return $('#CPH_RateButton'); }
   get bridgeButton() { return $('#CPH_ComparisonGrid_BridgeQuoteLink_0'); }
@@ -18,8 +18,8 @@ class loginPage extends Page  {
     let fields, selectedField
     
     fields = {
-      'userInput': () => { return $('#ctl00_body_UserNameEntry'); },
-      'passwordInput': () => { return $('#ctl00_body_PasswordEntry'); },
+      'userInput': () => { return $('#loginUsername-input'); },
+      'passwordInput': () => { return $('#loginPassword-input'); },
       'firstNameInput': () => { return $('#CPH_InsuredFirstNameEntry'); },
       'lastNameInput': () => { return $('#CPH_InsuredLastNameEntry'); },
       'addressInput': () => { return $('#CPH_InsuredAddressEntry'); },
