@@ -1,10 +1,10 @@
 {
-  "name": "webdriverIO-with-mochaBDD",
+  "name": "insurestation-tests",
   "version": "2.0.2",
-  "description": "WebDriver-v6 bindings for Node.js with Mocha",
-  "author": "Amiya Pattanaik <pattnaik_amiya@yahoo.com>",
+  "description": "Insurestation UI Tests",
+  "author": "David Forero <david.forero@sprintersinsurance.com>",
   "license": "MIT",
-  "homepage": "https://github.com/amiya-pattnaik/webdriverIO-with-mochaBDD",
+  "homepage": "https://github.com/sprintersinsurance",
   "main": "./node_modules/.bin/wdio",
   "scripts": {
     "allure:history": "mkdir -p allure-report/history ./test/reports/allure-results/history && cp -a allure-report/history ./test/reports/allure-results/",
@@ -27,7 +27,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/amiya-pattnaik/webdriverIO-with-mochaBDD.git"
+    "url": "https://github.com/sprintersinsurance"
   },
   "dependencies": {},
   "devDependencies": {
