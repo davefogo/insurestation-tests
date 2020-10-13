@@ -1,4 +1,3 @@
-
 import Page from './page';
 
 class loginPage extends Page  {
