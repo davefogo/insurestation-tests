@@ -1,6 +1,5 @@
-
-import loginPage    from '../pageobjects/login.page';
-import assert       from 'assert';
+import loginPage      from '../pageobjects/login.page';
+import assert         from 'assert';
 
 /*
 	This is a BDD test using Mocha JavaScript framework

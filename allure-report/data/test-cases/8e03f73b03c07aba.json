@@ -1,0 +1,74 @@
+{
+  "uid" : "8e03f73b03c07aba",
+  "name" : "Performing a search operation",
+  "fullName" : "Performing a search operation on Yahoo Page.Performing a search operation",
+  "historyId" : "182ad13153a1a100030beab6c5278e28",
+  "time" : {
+    "start" : 1601573199015,
+    "stop" : 1601573202081,
+    "duration" : 3066
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a search operation on Yahoo Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a search operation on Yahoo Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Performing a search operation"
+  }, {
+    "name" : "package",
+    "value" : "Performing a search operation on Yahoo Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.121"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bd825905e26b4218",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601573169459,
+        "stop" : 1601573171744,
+        "duration" : 2285
+      }
+    }, {
+      "uid" : "1d183e78d07566a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601573122755,
+        "stop" : 1601573124836,
+        "duration" : 2081
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8e03f73b03c07aba.json",
+  "parameterValues" : [ "chrome-85.0.4183.121" ]
+}

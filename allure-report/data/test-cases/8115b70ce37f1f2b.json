@@ -1,0 +1,74 @@
+{
+  "uid" : "8115b70ce37f1f2b",
+  "name" : "should be an button on the page",
+  "fullName" : "dynamic loading.should be an button on the page",
+  "historyId" : "78184ddfd966a4fed8a7172721da51ce",
+  "time" : {
+    "start" : 1601573199014,
+    "stop" : 1601573205573,
+    "duration" : 6559
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "dynamic loading"
+  }, {
+    "name" : "testClass",
+    "value" : "dynamic loading"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be an button on the page"
+  }, {
+    "name" : "package",
+    "value" : "dynamic loading"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.121"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "421d14a9270965c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601573169455,
+        "stop" : 1601573175356,
+        "duration" : 5901
+      }
+    }, {
+      "uid" : "c3b218a0da5ad71e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601573122755,
+        "stop" : 1601573128579,
+        "duration" : 5824
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8115b70ce37f1f2b.json",
+  "parameterValues" : [ "chrome-85.0.4183.121" ]
+}

@@ -14,7 +14,7 @@ class loginPage extends Page  {
   get product() { return $('#integrationPopup_integrationLinkGridCarriers_IntegrationHyperLink_0'); }
   
   inputFields(field) {
-    let fields, selectedField
+    let fields, selectedField;
     
     fields = {
       'userInput': () => { return $('#loginUsername-input'); },

@@ -1,0 +1,71 @@
+[ {
+  "uid" : "8e03f73b03c07aba",
+  "name" : "Performing a search operation",
+  "time" : {
+    "start" : 1601573199015,
+    "stop" : 1601573202081,
+    "duration" : 3066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cb057e7587491de",
+  "name" : "checkbox 2 should be enabled",
+  "time" : {
+    "start" : 1601573199018,
+    "stop" : 1601573200359,
+    "duration" : 1341
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8115b70ce37f1f2b",
+  "name" : "should be an button on the page",
+  "time" : {
+    "start" : 1601573199014,
+    "stop" : 1601573205573,
+    "duration" : 6559
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c65390fba8265be",
+  "name" : "should validate the message after login ",
+  "time" : {
+    "start" : 1601573201360,
+    "stop" : 1601573201384,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b2e6c55731b7b54",
+  "name" : "should allow user to login ",
+  "time" : {
+    "start" : 1601573199121,
+    "stop" : 1601573201359,
+    "duration" : 2238
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c823797d91261de",
+  "name" : "checkbox 1 should be enabled after clicking on it",
+  "time" : {
+    "start" : 1601573200359,
+    "stop" : 1601573200767,
+    "duration" : 408
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a5183743289439f",
+  "name" : "searching Selenium Webdriver",
+  "time" : {
+    "start" : 1601573202081,
+    "stop" : 1601573204194,
+    "duration" : 2113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

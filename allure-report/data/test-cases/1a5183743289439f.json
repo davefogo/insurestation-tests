@@ -1,0 +1,74 @@
+{
+  "uid" : "1a5183743289439f",
+  "name" : "searching Selenium Webdriver",
+  "fullName" : "Performing a search operation on Yahoo Page.searching Selenium Webdriver",
+  "historyId" : "cca8805c232a652b6066084b4a5e9028",
+  "time" : {
+    "start" : 1601573202081,
+    "stop" : 1601573204194,
+    "duration" : 2113
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a search operation on Yahoo Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a search operation on Yahoo Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "searching Selenium Webdriver"
+  }, {
+    "name" : "package",
+    "value" : "Performing a search operation on Yahoo Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.121"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c1b87e91e55870ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601573171744,
+        "stop" : 1601573173752,
+        "duration" : 2008
+      }
+    }, {
+      "uid" : "c720fb5bdb89fd79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601573124836,
+        "stop" : 1601573127208,
+        "duration" : 2372
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a5183743289439f.json",
+  "parameterValues" : [ "chrome-85.0.4183.121" ]
+}

@@ -1,0 +1,74 @@
+{
+  "uid" : "5b2e6c55731b7b54",
+  "name" : "should allow user to login ",
+  "fullName" : "Test for herokuapp login page.should allow user to login ",
+  "historyId" : "d831043a301f777d9fc650a4e8090e8a",
+  "time" : {
+    "start" : 1601573199121,
+    "stop" : 1601573201359,
+    "duration" : 2238
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Test for herokuapp login page"
+  }, {
+    "name" : "testClass",
+    "value" : "Test for herokuapp login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should allow user to login "
+  }, {
+    "name" : "package",
+    "value" : "Test for herokuapp login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-85.0.4183.121"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5d714e7f73356cfd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601573169404,
+        "stop" : 1601573170863,
+        "duration" : 1459
+      }
+    }, {
+      "uid" : "8839b5a67908f7cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601573122755,
+        "stop" : 1601573124135,
+        "duration" : 1380
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b2e6c55731b7b54.json",
+  "parameterValues" : [ "chrome-85.0.4183.121" ]
+}
